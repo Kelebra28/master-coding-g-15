@@ -1,0 +1,45 @@
+/* 
+    El selecyoto * es para llamar todos los elemenots -> no es buene practica
+* {
+    background-color: aqua;
+} */
+
+/* 
+ display : block ->  Me permite cambiar la altura y el ancho pero no deja poner un elemento a lado
+*/
+h1 {
+    /* display: inline-block; */
+    border: 2px black solid ;
+    height: 50px;
+    width: 100px;
+}
+
+p {
+    display: inline-block;
+    border: solid 2px blue;
+    width: 500px;
+}
+
+/* 
+    display: inline ->  Me permite poner un elemento a un lado pero no modificar su altura y su ancho
+*/
+
+a {
+    border: 2px solid red;
+    width: 100px;
+    /* height: 100px; */
+    /* Me permite tener elementos a un lado y modificar su altura y su ancho */
+    display: inline-block;
+
+}
+
+.padre {
+    border: 2px solid green;
+    height: 100px;
+    /*      top rigth bottom left  */
+    /* padding: 0    0      0   1100px       ; */
+}
+
+.hija {
+    margin-left: 1100px;
+}
