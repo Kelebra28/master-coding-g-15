@@ -1,0 +1,32 @@
+h1{
+    color: crimson;
+    background-color: chartreuse;
+}  
+
+p{
+    color: rgb(184, 18, 18);
+    background-color: darkgrey;
+}
+
+#primer{
+    color: darkgreen;
+    display: inline;
+}
+
+#segundo{
+    background-color: darkorchid;
+}
+
+.tipo{
+    font-size: 30px;
+}
+
+#etiqueta{
+    padding: 10px;
+    border:darkslateblue;
+    margin: 15px;
+}
+
+#etiquetaDos{
+    padding: 3px;
+}
