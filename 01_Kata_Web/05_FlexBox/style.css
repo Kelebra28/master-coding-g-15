@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*  vh es una medida relativa -> vw */
+    height: 100vh;
+}
+
+.padre {
+    width: 600px;
+    height: 600px;
+    border: 2px solid;
+    display: flex;
+    /*  flex-direction cambia la posicion de fila a columna */
+    flex-direction: column;
+    /* acomodar los elementos en mi eje x o horizontal */
+    justify-content: center;
+    /* acomodar los elementos en mi eje y o vertical*/
+    align-items: center;
+}
+
+.hijo {
+    width: 40%;
+    height: 40%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hija {
+    width: 40%;
+    height: 40%;
+    border: 2px solid blue;
+}
+
+.nieto {
+    width: 40%;
+    height: 40%;
+    border: 2px solid green;
+}
