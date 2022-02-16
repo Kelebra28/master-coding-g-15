@@ -1,0 +1,52 @@
+<html> 
+  <head>
+    <title>
+      HTML5 Forms 
+    </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <header>
+      <h1>Bienvenidos al club fitness</h1>
+    </header>
+    
+    <section>
+      <form action="target" method="GET/POST" name="primerFormulario">
+        <fieldset>
+          <legend>Información general</legend>
+          <label for="name">Nomre</label>
+          <input type="text" name="name"  
+                    form="primerFormulario" placeholder="Escribe" required>
+          <p>¿Eres miembro?</p>
+          <input type="radio" name="membership" value="member" checked>Miembro
+          <input type="radio" name="membership" value="non-member">No miembro
+          <br>
+          <br>
+          <label for="name">Escribe tu personalidad</label>
+          <br>
+          <textarea id="texto" name="personalidad" rows="4" cols="50"></textarea>
+          <br>
+          <br>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+          <br>
+          <br>
+        </fieldset>
+        <label for="facility">Instalaciones</label>
+        <select name="facility">
+          <option value="badminton">Badminton</option>
+          <option value="squash">Squash</option>
+          <option value="racquetball">Racquetball</option>
+        </select>
+        <p>Selecciona fecha para reservar:</p>
+        <input type="date" name="resDate" required>
+        <input type="time" name="resTime" required><br><br>
+        <input type="checkbox" name="tnc" id="tnc" required>
+        <label for="tnc"> Estoy de acuerdo con las políticas del club</label><br><br>
+        <button type="submit">ENVIAR</button>
+        </form>
+    </section>
+
+  </body>
+</html>
