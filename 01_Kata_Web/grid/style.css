@@ -1,0 +1,102 @@
+.container{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    /* grid-template-columns: 200px 250px 350px 200px;  */
+    /* cuatro columnas de  150px */
+    /* grid-template-columns: repeat(4, 150px); */
+    /* pixeles, % */
+    /* grid-template-columns: 50% 15% 200px; */
+    /* fr */
+    /* grid-template-columns: 1fr 3fr 2fr 4fr;  */
+    /* grid-template-columns: 300px 10% 1fr 2fr;
+    grid-template-rows: 300px 400px repeat(5,100px); */
+
+    /* grid-template: renglones / columnas; */
+    /* grid-template: 150px 10% / 1fr 3fr 1fr 1fr; */
+    /* grid-template: repeat(4, 150px) / repeat(12, 120px); */
+    grid-template: repeat(4, 150px) / repeat(4, 200px);
+    /* row-gap: 5px;
+    column-gap: 15px; */
+    gap: 5px 15px;
+    /* alinear contenido de celdas en el eje Y */
+    /* align-items: end;  */
+    /* alinear contenido de las celdas en el eje X */
+    /* justify-items: start; */
+    /* start, end, center, stretch */
+    /* justify-items: end;  */
+    /* text-align: center; */
+    /* align-self: center; */
+
+    /* acomoda horizontalmente la cuadricula */
+    justify-content: center;
+    /* acomoda de forma vertical */
+    align-content: center;
+    
+}
+
+div{
+    
+    border: black 2px solid;
+}
+
+.otro{
+    background-color: bisque;
+}
+
+.a{
+    display: flex;
+    background-color: aqua;
+    /* inicio de la columna, final de la columna +1 */
+    grid-column: 2 / 4;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.imagen{
+    width: 100px;
+    height: 90px;
+}
+
+.primera{
+    width: 25%;
+    height: auto;
+}
+
+.seg{
+    width: 70%;
+    height: auto;
+}
+
+.b{
+    display: grid;
+    /* width: 300px;
+    height: 100px; */
+    background-color: blue;
+    grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+    /* row inicio / col inicio / row fin / col fin   */
+    /* grid-area: 2 / 3 / span 2 / span 4; */
+    grid-area: 2 / 3 / 3 / 4;
+    /* grid-area: 2 / 3 / 4 / 7; */
+}
+
+.c{
+    background-color: blueviolet;
+    /* reglon inicio / renglon final +1 */
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+
+
+/* 
+    se pone en el contenedor
+    display: grid;
+    grid-template-columns: 50% 15% 200px;
+    grid-template-rows: 300px 400px repeat(5,100px);
+    grid-template: repeat(4, 150px) / repeat(12, 120px);
+
+    esto se pone en los elementos individuales
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    grid-area: 2 / 3 / 4 / span 4;
+*/

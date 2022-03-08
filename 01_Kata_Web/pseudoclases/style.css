@@ -1,0 +1,43 @@
+
+p.clase{
+    display: none;
+}
+
+a:hover + .clase{
+    background-color: aquamarine;
+    color: black;
+    display: inline;
+}
+
+a:visited{
+    color: red;
+}
+
+a:active{
+    background-color: brown;
+}
+
+textarea:active{
+    background-color: aqua;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+
+/* 
+    focus
+    visited
+    active
+    disabled
+    hover
+*/
+
+

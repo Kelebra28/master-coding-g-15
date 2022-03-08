@@ -1,0 +1,93 @@
+/* html{
+    font-size: 20px;
+} */
+
+
+/* h1{
+    /* h1 será de 30 px */
+    /* root em */
+    /* font-size: 2rem; 
+} */ 
+
+/* .dev-em{
+    width: 90vw;
+    height: 90vh;
+    background-color: aqua;
+    font-size: 12px;
+}
+
+.text-rem{
+    font-size: 1.125rem;
+}
+
+.text-em{
+    /* 36 px */
+    /* font-size: 3em;
+}  */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div.primero{
+    width: 100vw;
+    height: 200px;
+}
+
+div.segundo{
+    width:50vw;
+    height: 150px;
+    background-color: black;
+}
+
+@media only screen and (max-width:1500px){
+    div.primero{
+        background-color: aqua;
+    }    
+}
+
+@media only screen and (max-width:1300px){
+    div.primero{
+        background-color:pink;
+    }
+
+    div.segundo{
+        width: 30vw;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    div.primero{
+        background-color: green;
+    }
+}
+
+/* ambas condiciones deben cumplirse para que se ejecute esta instrucción */
+/* @media only screen and (max-width:700px) and (min-resolution: 300dpi) { */
+@media only screen and (max-width:700px){
+    div.primero{
+        background-color: cornflowerblue;
+    }
+
+    p{
+        color: blue;
+    }
+
+    div.segundo{
+        width: 100vw;
+    }
+}
+
+/* se ejecute cuando una condición se cumpla O la otra se cumpla */
+/* @media only screen and (max-width:700px), (min-resolution: 300dpi) {
+    div{
+        background-color: cornflowerblue;
+    }
+
+    p{
+        color: blue;
+    }
+} */
+
+

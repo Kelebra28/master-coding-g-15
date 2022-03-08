@@ -1,0 +1,57 @@
+div{
+    width: 150px;
+    height: 150px;
+}
+
+.div1{
+    background-color: black;
+    /* static
+        absolute
+        relative
+        fixed
+    */
+
+    /* relative */
+    /* position: relative; */
+    /* aleje de la parte superior del contenedor padre */
+    /* top, bottom, right, left */
+    /* pueden ser pixeles o porcentajes */
+    /* top: 150px; */
+    /* bottom: 120px; */
+    /* left: 100px; */
+    /* right:0px */
+
+    /* absolute */
+    /* me permite manipular la posición del elemento, sin afectar a los demás
+        es como si estuviera sobrepuesto */
+    /* position: absolute; */
+    /* top: 600px; */
+    /* right: 250px;
+    bottom: 0px; */
+
+    /* fixed */
+    position: fixed;
+    bottom: 25px;
+    /* left: 70px; */
+    right: 0;
+    /* indice z toma elementos enteros positivos y negativos */
+    z-index: -1;
+}
+
+.div2{
+    background-color: aqua;
+}
+
+.div3{
+    background-color: blue;
+}
+
+.div4{
+    background-color: blueviolet;
+}
+
+
+p{
+    background-color: blue;
+    z-index: 1;
+}
