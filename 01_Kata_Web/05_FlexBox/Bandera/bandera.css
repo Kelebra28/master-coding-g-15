@@ -1,0 +1,78 @@
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    /* border: 2px solid; */
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.izquierda {
+    /* border: 2px solid; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: royalblue;
+}
+
+.blanco_izquierda_arriba {
+    /* border: 2px solid red; */
+    width: 90%;
+    height: 40%;
+    background-color: white;
+}
+
+.blanco_izquierda_abajo {
+    /* border: 2px solid red; */
+    width: 90%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+    background-color: white;
+}
+
+.rojo {
+    /* border: 2px solid green; */
+    width: 90%;
+    height: 80%;
+    background-color: red;
+}
+
+
+.derecha {
+    /* border: 2px solid blue; */
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: royalblue;
+}
+
+.blanco_derecha_arriba {
+    /* border: 2px solid red; */
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+}
+
+.blanco_derecha_abajo {
+    /* border: 2px solid red; */
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: white;
+}

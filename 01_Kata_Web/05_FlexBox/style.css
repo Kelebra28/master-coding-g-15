@@ -9,7 +9,7 @@ body {
 .padre {
     width: 600px;
     height: 600px;
-    border: 2px solid;
+    /* border: 2px solid; */
     display: flex;
     /*  flex-direction cambia la posicion de fila a columna */
     flex-direction: column;
@@ -22,7 +22,7 @@ body {
 .hijo {
     width: 40%;
     height: 40%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,11 +30,11 @@ body {
 .hija {
     width: 40%;
     height: 40%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 .nieto {
     width: 40%;
     height: 40%;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
