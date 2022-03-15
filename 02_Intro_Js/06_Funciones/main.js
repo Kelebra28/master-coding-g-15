@@ -31,5 +31,12 @@ saludoParametro('Sebastinas', 24)
 // Funcion para saber el area de un rectangulo
 // Funcion para el area  de un circulo 
 // Funcion para saber el area de  rombo
+// Saber si un numer es negattivo, cero o positivo
+// Saber si la letra es vocal o consonante
+// Piedra papel o tijera
 
+
+// function juego() {
+//     var player1 = prompt()
+// }
 
