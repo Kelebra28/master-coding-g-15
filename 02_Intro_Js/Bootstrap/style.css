@@ -1,0 +1,26 @@
+.container{
+    background-color: aquamarine;
+    border: black solid 10px;
+    height: 500px;
+    width: 300px;
+}
+
+.container-fluid{
+    background-color: beige;
+    border: black solid 10px;
+}
+
+.row{
+    background-color: orange;
+    border: black solid 5px;
+}
+
+/* todo lo que tenga mi propiedad class que contenga el valor col */
+[class*="col"]{
+    background-color: crimson;
+    border: black solid 2px;
+}
+
+.row{
+    height: 300px;
+}
