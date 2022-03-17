@@ -1,0 +1,41 @@
+/* .row{
+    height: 300px;
+}
+
+[class*=col]{
+    background-color: aqua;
+}
+
+.pad-alt{
+    height: 95%;
+    margin: 5px;
+    background-color: blue;
+} */
+
+/* .row{
+    min-height: 50px;
+}
+
+[class*=col]{
+    background-color: aliceblue;
+    border: black solid 2px;
+} */
+
+.row{
+    background-color: antiquewhite;
+    margin: 10px;
+    height: 100px;
+}
+
+[class*=col]{
+    background-color: blueviolet;
+    border: black solid 2px;
+}
+/* 
+#azul{
+    background-color: blue;
+}
+
+#verde{
+    background-color: chartreuse;
+} */
