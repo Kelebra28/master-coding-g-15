@@ -1,3 +1,3 @@
 // rama secundira
 
-// Hola desde la segunda rama
+// Hola desde la main rama
